@@ -1,0 +1,9 @@
+services:
+  logstash-local:
+    image: logstash:8.5.0
+    ports:
+      - '5000:5000'
+    volumes:
+      - logstash-data:/etc/data  
+    depends_on:
+      - elastic-local

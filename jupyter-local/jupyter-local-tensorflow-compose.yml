@@ -1,0 +1,14 @@
+services:
+  jupyter-tensorflow-local:
+    container_name: jupyter-tensorflow-local
+    image: jupyter/tensorflow-notebook
+    volumes:
+      - notebooks:/home/jovyan/work
+    ports:
+      - 8891:${PORT}
+    tty: true
+    command: jupyter notebook --NotebookApp.token='${ACCESS_TOKEN}'
+
+volumes:
+  notebooks:
+    external: true

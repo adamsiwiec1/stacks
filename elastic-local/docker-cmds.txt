@@ -1,0 +1,14 @@
+
+# building, running, etc..
+
+1. Dockerfile
+docker build . -t image-name
+docker run -dit image-name
+
+2. Docker Compose
+docker compose --file .\elastic-local-compose.yml up -d
+docker --file .\elastic-local-compose.yml down
+
+# connecting 
+
+docker exec -it f828e37c8630 /bin/bash
