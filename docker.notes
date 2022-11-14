@@ -1,5 +1,5 @@
-# create an external named volume accessible across all containers
+# create an external named volume/bind mount accessible across all containers
 docker volume create --driver local \
     --opt type=none \
-    --opt device=/usr/jupyter-notebooks/ \
+    --opt device=/mnt/e/docker/volumes/jupyter-notebooks \
     --opt o=bind notebooks
