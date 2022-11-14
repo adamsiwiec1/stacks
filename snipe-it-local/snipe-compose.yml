@@ -1,32 +1,71 @@
 version: "3.3"
 services:
-  snipe-it:
+
+  snipeit:
     image: snipe/snipe-it
+    # build:
+    #   context: snipe-it
+    #   dockerfile: Dockerfile.alpine
+    container_name: snipeit
     env_file: .env
     ports:
-      - '6969:80'
-    expose:
-      - '6969'
+    - "6969:80"
     volumes:
       - snipe-vol:/var/lib/snipeit
+    # links:
+    #   - snipe-mysql:mysql
+    # depends_on:
+    #   - snipe-mysql
+    # networks:
+    # - snipeit-backend
+
+  # mariadb:
+  #   image: mariadb:10.6.4-focal
+  #   volumes:
+  #   - db:/var/lib/mysql
+  #   env_file:
+  #   - .env
+  #   networks:
+  #   - snipeit-backend
+  #   ports:
+  #     - "3306:3306"
+
+  # redis:
+  #   image: redis:6.2.5-buster
+  #   networks:
+  #   - snipeit-backend
+
+  # mailhog:
+  #   image: mailhog/mailhog:v1.0.1
+  #   ports:
+  #   # - 1025:1025
+  #   - "8025:8025"
+  #   networks:
+  #   - snipeit-backend
+
   snipe-mysql:
     image: mysql:5.6
-    environment:
-      MYSQL_DATABASE: ${MYSQL_DATABASE}
-      MYSQL_USER: ${MYSQL_USER}
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    env_file: .env
+    command: --default-authentication-plugin=mysql_native_password
     ports:
-      - '3306:3306'
-    expose:
-      - '3306'
+      - "3306:3306"
     volumes:
       - snipesql-vol:/var/lib/mysql
+  #   networks:
+  #   - snipeit-backend
 
 volumes:
   snipesql-vol:
     driver: local
   snipe-vol:
     driver: local
+#   db: {}
+
+# networks:
+#   snipeit-backend: {}
   
-  
+# volumes:
+#   snipesql-vol:
+#     external: true
+#   snipe-vol:
+#     external: true
