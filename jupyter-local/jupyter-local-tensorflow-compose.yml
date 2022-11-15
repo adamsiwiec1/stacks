@@ -4,12 +4,11 @@ services:
     image: jupyter/tensorflow-notebook
     env_file: .env
     volumes:
-      - type: bind
-        source: ${LOCAL_WORKING_DIR}tensorflow/
-        target: /home/jovyan/work
+      - tensorflow-notebooks:/home/jovyan/work
     tty: true
     ports:
       - ${TENSORFLOW_PORT}:${TENSORFLOW_PORT}
     command: bash -c "jupyter notebook --port ${TENSORFLOW_PORT} --NotebookApp.token=${ACCESS_TOKEN}"
 volumes:
-  notebooks:
+  tensorflow-notebooks:
+    external: true
