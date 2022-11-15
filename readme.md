@@ -32,7 +32,7 @@
 * These stacks are provisioned with docker compose - [Docker Compose Install Instructions](https://docs.docker.com/compose/install/).
 * Windows - you must [install WSL](https://learn.microsoft.com/en-us/windows/wsl/install) (Windows Subsystem for Linux) to run Docker.
 * Mac - [install instructions](https://docs.docker.com/desktop/install/mac-install/).
-### Example - Jupyter Tensorflow
+## Example - Jupyter Tensorflow
 1. Clone the repo and `cd` into the `jupyter-local` stack.
 ```
 $ git clone https://github.com/adamsiwiec1/stacks.git
