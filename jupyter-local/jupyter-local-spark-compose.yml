@@ -3,12 +3,13 @@ services:
     container_name: jupyter-spark-local
     image: jupyter/all-spark-notebook
     volumes:
-      - notebooks:/home/jovyan/work
+      - type: bind
+        source: ${LOCAL_WORKING_DIR}spark/
+        target: /home/jovyan/work
     ports:
-      - 8891:${PORT}
+      - ${SPARK_PORT}:${SPARK_PORT}
     tty: true
-    command: jupyter notebook --NotebookApp.token='${ACCESS_TOKEN}'
+    command: bash -c "jupyter notebook --port ${SPARK_PORT} --NotebookApp.token=${ACCESS_TOKEN}"
 
 volumes:
   notebooks:
-    external: true
