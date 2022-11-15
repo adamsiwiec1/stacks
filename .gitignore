@@ -1,3 +1,7 @@
+# git rm -r --cached .
 pyparsers-local/
 airflow-local/logs/
-snipe-it-local/snipe-it/
+snipe-it-local/
+rocketchat-local/
+docker-mailserver-local/docker-data/
+neat-tools
