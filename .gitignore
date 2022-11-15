@@ -4,4 +4,4 @@ airflow-local/logs/
 snipe-it-local/
 rocketchat-local/
 docker-mailserver-local/docker-data/
-neat-tools
+neat-tools*
