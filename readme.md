@@ -30,4 +30,4 @@ docker compose -f jupyter-local-tensorflow-compose.yml up -d
 ```
 5. Open [localhost:8887](http://localhost:8887) in your browser and enter your super secret token to log in.
 
-![jupyter](https://github.com/adamsiwiec1/stacks/tree/master/blob/etc/image.jpg?raw=true)
+![jupyter](https://github.com/adamsiwiec1/stacks/tree/master/blob/etc/jupyter.jpg?raw=true)
