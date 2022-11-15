@@ -29,3 +29,5 @@ SPARK_PORT=8889
 docker compose -f jupyter-local-tensorflow-compose.yml up -d
 ```
 5. Open [localhost:8887](http://localhost:8887) in your browser and enter your super secret token to log in.
+
+![jupyter](https://github.com/adamsiwiec1/stacks/tree/master/etc/image.jpg?raw=true)
