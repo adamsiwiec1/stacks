@@ -1,4 +1,13 @@
 # stacks: boilerplates for local development.
+
+## Status
+
+* airflow-local
+* docker-mailserver-local
+* elastic-local
+* jupyter-local
+* d
+
 ## Prerequisites
 * These stacks are provisioned with docker compose - [Docker Compose Install Instructions](https://docs.docker.com/compose/install/).
 * Windows - you must [install WSL](https://learn.microsoft.com/en-us/windows/wsl/install) (Windows Subsystem for Linux) to run Docker.
@@ -30,4 +39,4 @@ docker compose -f jupyter-local-tensorflow-compose.yml up -d
 ```
 5. Open [localhost:8887](http://localhost:8887) in your browser and enter your super secret token to log in.
 
-![jupyter](https://github.com/adamsiwiec1/stacks/blob/master/etc/jupyter.png?raw=true)
+![jupyter](https://github.com/adamsiwiec1/images/blob/main/jupyter.png?raw=true)
