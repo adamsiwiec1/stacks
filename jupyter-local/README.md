@@ -1,4 +1,4 @@
-### Run Jupyter locally without environment/package management!
+# Run Jupyter locally without environment/package management!
 Containers come prepackaged with dependencies, making it much easier to spin up a dev environment.
 * [Core Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html)
 * [Docker Hub Jupyter Project](https://hub.docker.com/u/jupyter)
