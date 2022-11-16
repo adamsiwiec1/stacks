@@ -31,14 +31,19 @@
 ## How to Contribute
 
 ### Adding onto an exisiting stack
-
+1. Create a Fork
 
 ### Creating a new stack
-Follow the naming convention of `{STACK_NAME}-local` and try to pick a concise stack name. Make a fork and create a pull request, I'll probably merge it in within hours. 
-
 If there's a software or service you see fit for this repository, please feel free to create a new stack for it. Don't create stacks that have licensing requirements. 
+* 
+* Naming Convention: `{STACK_NAME}-local` 
+  * Try to pick a concise stack name. 
+  * Make a Fork and create your Pull Request with your changes.
+  * If I know you send me email (adam@siwiectech.com) and I will add you as a contributor.
 
-I'd love to implement services like Datadog, Databricks, Snowflake, etc.. but they don't support local development unless you have an account/license with them. I'd like to keep this repo as open-source as possible, only create stacks that allow you to develop locally without licensing requirements. (example of an exception: Localstack - some minor additional features are included with Pro. Services like this are fine.)
+* Plug and Play: Anyone should be able to get these stacks up and running within minutes.
+  *  I'd like to keep this repo open-source, only create stacks that allow you to develop locally without licensing requirements. (example of an exception: Localstack - some minor additional features are included with Localstack Pro. Services like this are fine.)
+  * I'd love to implement services like Datadog, Databricks, Snowflake, etc.. but they don't support local development unless you have an account/license with them. 
 
 ### Issues
 Feel free to create an issue if you see anything outdated or something that doesn't follow best practices.
