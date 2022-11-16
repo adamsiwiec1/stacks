@@ -30,9 +30,6 @@
 
 ## How to Contribute
 
-### Issues
-Feel free to create an issue if you see anything outdated or something that doesn't follow best practices.
-
 ### Adding onto an exisiting stack
 
 
@@ -41,7 +38,10 @@ Follow the naming convention of `{STACK_NAME}-local` and try to pick a concise s
 
 If there's a software or service you see fit for this repository, please feel free to create a new stack for it. Don't create stacks that have licensing requirements. 
 
-I'd love to implement services like Datadog, Databricks, Snowflake, etc.. but they don't support local development unless you have an account/license with them. I'd like to keep this repo as open-source as possible, please only create stacks that allow you to develop locally without licensing requirements. (example of an exception: Localstack - some minor additional features are included with Pro. Services like this are fine.)
+I'd love to implement services like Datadog, Databricks, Snowflake, etc.. but they don't support local development unless you have an account/license with them. I'd like to keep this repo as open-source as possible, only create stacks that allow you to develop locally without licensing requirements. (example of an exception: Localstack - some minor additional features are included with Pro. Services like this are fine.)
+
+### Issues
+Feel free to create an issue if you see anything outdated or something that doesn't follow best practices.
 
 ## Prerequisites
 * These stacks are provisioned with docker compose - [Docker Compose Install Instructions](https://docs.docker.com/compose/install/).
