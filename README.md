@@ -4,18 +4,18 @@
 | stack | status |
 | ----------- | ----------- |
 | aws-local  | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=dev&color=purple) |
-| airflow-local  | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=green) |
+| airflow-local  | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=lightgreen) |
 | docker-mailserver-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=dev&color=purple) |
-| elastic-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=green) |
+| elastic-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=lightgreen) |
 | jupyter-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=finished&color=cyan) |
-| kafka-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=green) |
-| logtsash-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=green) |
-| mongo-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=green) |
-| mysql-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=green) |
+| kafka-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=lightgreen) |
+| logtsash-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=lightgreen) |
+| mongo-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=lightgreen) |
+| mysql-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=lightgreen) |
 | nginx-reverse-proxy-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=dev&color=purple) |
-| pentest-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=green) |
-| postgres-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=green) |
-| rabbitmq-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=green) |
+| pentest-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=lightgreen) |
+| postgres-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=lightgreen) |
+| rabbitmq-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=lightgreen) |
 | rocketchat-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=dev&color=purple) |
 | snipe-it-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=broken&color=red) |
 | traefik-reverse-proxy-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=dev&color=purple) |
@@ -23,7 +23,7 @@
 
 | Key |  Description|
 | ----------- | ----------- |
-| ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=green) | Basic boilerplate from the documentation that runs and functions correctly. |
+| ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=lightgreen) | Basic boilerplate from the documentation that runs and functions correctly. |
 | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=finished&color=cyan) | Additional functionality outside of the documentation or the scope of basic deployment was implemeted succcesfully. |
 | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=dev&color=purple) | Additional functionality or testing scripts are being implemented. Possibly stable. |
 | ![broken-status](https://img.shields.io/static/v1?label=status&message=broken&color=red) | Not functioning 100% correctly, impediment remains unresolved. (create gh issue for these)|
