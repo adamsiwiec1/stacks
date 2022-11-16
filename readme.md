@@ -3,6 +3,7 @@
 
 | stack | status |
 | ----------- | ----------- |
+| aws-local  | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=in+development&color=purple) |
 | airflow-local  | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=yellow) |
 | docker-mailserver-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=in+development&color=purple) |
 | elastic-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=yellow) |
@@ -25,7 +26,7 @@
 | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=yellow) | Basic boilerplate from the documentation that runs and functions correctly. |
 | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=finished&color=green) | Additional functionality outside of the documentation or the scope of basic deployment was implemeted succcesfully. |
 | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=in+development&color=purple) | Additional functionality or testing scripts are being implemented in a branch. |
-| ![broken-status](https://img.shields.io/static/v1?label=status&message=broken&color=red) | Not functioning 100% correctly, issue remains unresolved. (create issue for these)|
+| ![broken-status](https://img.shields.io/static/v1?label=status&message=broken&color=red) | Not functioning 100% correctly, impediment remains unresolved. (create gh issue for these)|
 
 
 ## Prerequisites
@@ -72,7 +73,7 @@ SPARK_PORT=8889
 ```
 4.  Use `docker compose -f compose-filename.yml up` and start your container in detached mode using the `-d` flag.
 ```
-docker compose -f jupyter-local-tensorflow-compose.yml up -d
+$ docker compose -f jupyter-local-tensorflow-compose.yml up -d
 ```
 5. Open [localhost:8887](http://localhost:8887) in your browser and enter your super secret `ACCESS_TOKEN` inside of `.env` to log in.
 
@@ -85,6 +86,6 @@ docker compose -f jupyter-local-tensorflow-compose.yml up -d
 ![jupyter-explorer](https://github.com/adamsiwiec1/images/blob/main/stacks/jupyter-explorer.png?raw=true)
 8. Use `docker compose -f compose-filename.yml down`  to tear down your deployment.
 ```
-docker compose -f jupyter-local-tensorflow-compose.yml down
+$ docker compose -f jupyter-local-tensorflow-compose.yml down
 ```
 `docker compose down` will tear down all the resources specified in your docker compose file; containers, networks, volumes, etc. However, since we created an external bind mount on our local system (`tensorflow-notebooks` in step 2) which we are referencing in our compose file, our data will persist next time we start our compose project. 
