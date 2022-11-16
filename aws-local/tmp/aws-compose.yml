@@ -10,15 +10,7 @@ services:
       # - "443:443"              # LocalStack HTTPS Gateway (only required for Pro)
       # - "53:53"                # DNS config (only required for Pro)
       # - "53:53/udp"            # DNS config (only required for Pro)
-    environment:
-      - DEBUG=1
-      - PERSISTENCE=1                    # Persist among services. https://docs.localstack.cloud/localstack/persistence-mechanism/
-      - LAMBDA_EXECUTOR=docker-reuse     # https://docs.localstack.cloud/localstack/configuration/
-      - DOCKER_HOST=unix://var/run/docker.sock
-      - DOCKER_SOCK=unix://var/run/docker.sock
-      - DATA_DIR=/mnt/e/docker/volumes/localstack
-      # - S3_DIR=${LOCAL_S3_DIR} # LocalStack Pro Feature - persist S3 Data in a local directory
-      # - LOCALSTACK_API_KEY=${LOCALSTACK_API_KEY-}  # only required for Pro
+    env_file: aws-basic.env
     volumes:
       - localstack-volume:/var/lib/localstack
       - "/var/run/docker.sock:/var/run/docker.sock"
@@ -26,3 +18,4 @@ services:
 volumes:
   localstack-volume:
     external: true
+

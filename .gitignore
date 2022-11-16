@@ -5,3 +5,6 @@ snipe-it-local/
 rocketchat-local/
 docker-mailserver-local/docker-data/
 notes/
+aws-local/tmp/
+aws-local/*.json
+aws-local/examples/*.json
