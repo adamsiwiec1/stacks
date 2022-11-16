@@ -4,18 +4,18 @@
 | stack | status |
 | ----------- | ----------- |
 | aws-local  | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=dev&color=purple) |
-| airflow-local  | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=yellow) |
+| airflow-local  | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=green) |
 | docker-mailserver-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=dev&color=purple) |
-| elastic-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=yellow) |
-| jupyter-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=finished&color=green) |
-| kafka-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=yellow) |
-| logtsash-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=yellow) |
-| mongo-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=yellow) |
-| mysql-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=yellow) |
+| elastic-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=green) |
+| jupyter-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=finished&color=cyan) |
+| kafka-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=green) |
+| logtsash-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=green) |
+| mongo-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=green) |
+| mysql-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=green) |
 | nginx-reverse-proxy-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=dev&color=purple) |
-| pentest-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=yellow) |
-| postgres-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=yellow) |
-| rabbitmq-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=yellow) |
+| pentest-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=green) |
+| postgres-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=green) |
+| rabbitmq-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=green) |
 | rocketchat-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=dev&color=purple) |
 | snipe-it-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=broken&color=red) |
 | traefik-reverse-proxy-local | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=dev&color=purple) |
@@ -23,8 +23,8 @@
 
 | Key |  Description|
 | ----------- | ----------- |
-| ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=yellow) | Basic boilerplate from the documentation that runs and functions correctly. |
-| ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=finished&color=green) | Additional functionality outside of the documentation or the scope of basic deployment was implemeted succcesfully. |
+| ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=green) | Basic boilerplate from the documentation that runs and functions correctly. |
+| ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=finished&color=cyan) | Additional functionality outside of the documentation or the scope of basic deployment was implemeted succcesfully. |
 | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=dev&color=purple) | Additional functionality or testing scripts are being implemented. Possibly stable. |
 | ![broken-status](https://img.shields.io/static/v1?label=status&message=broken&color=red) | Not functioning 100% correctly, impediment remains unresolved. (create gh issue for these)|
 
