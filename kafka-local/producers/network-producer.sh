@@ -1,1 +1,0 @@
-netstat -tupln | jc --netstat | jq -r '.[] | {proto: .proto,  state: .state, local_port: .local_port, kind: .kind}'

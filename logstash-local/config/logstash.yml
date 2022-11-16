@@ -1,3 +1,0 @@
-dead_letter_queue.enabled: false
-http.port: 9600
-xpack.monitoring.enabled: false
