@@ -32,13 +32,15 @@
 
 ### Adding onto an exisiting stack
 1. Create a Fork
+2. Make your changes.
+3. Create a Pull Request. 
 
 ### Creating a new stack
 If there's a software or service you see fit for this repository, please feel free to create a new stack for it. Don't create stacks that have licensing requirements. 
-* 
+  
 * Naming Convention: `{STACK_NAME}-local` 
   * Try to pick a concise stack name. 
-  * Make a Fork and create your Pull Request with your changes.
+  * Make a Fork and create a Pull Request with your changes.
   * If I know you send me email (adam@siwiectech.com) and I will add you as a contributor.
 
 * Plug and Play: Anyone should be able to get these stacks up and running within minutes.
