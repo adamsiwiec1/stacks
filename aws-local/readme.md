@@ -1,6 +1,6 @@
 # Mock any AWS service!
-* [Localstack](https://docs.localstack.cloud/overview/) allows you to fully mock instances of AWS services.
-*  It is based on [moto](https://pypi.org/project/moto/), the mocking library for [boto](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+* [Localstack](https://docs.localstack.cloud/overview/) allows you to fully mock instances of AWS services locally using Docker.
+*  The back-end of Localstack is based on [moto](https://pypi.org/project/moto/), the mocking library for [boto](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 * [Localstack's moto fork.](https://github.com/localstack/moto)
 
 ### Links
