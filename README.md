@@ -25,7 +25,7 @@
 | ----------- | ----------- |
 | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=stable&color=yellow) | Basic boilerplate from the documentation that runs and functions correctly. |
 | ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=finished&color=green) | Additional functionality outside of the documentation or the scope of basic deployment was implemeted succcesfully. |
-| ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=in+development&color=purple) | Additional functionality or testing scripts are being implemented in a branch. |
+| ![airflow-local-status](https://img.shields.io/static/v1?label=status&message=in+development&color=purple) | Additional functionality or testing scripts are being implemented. Possibly stable. |
 | ![broken-status](https://img.shields.io/static/v1?label=status&message=broken&color=red) | Not functioning 100% correctly, impediment remains unresolved. (create gh issue for these)|
 
 
