@@ -1,0 +1,1 @@
+curl -k -X GET -H "Authorization: ApiKey Qk5ETVo0UUJfOEZqaXBEUURNMEk6b01nNGpnSnFUYUtXOU1VbGJHY19KQQ==" https://192.168.1.38:9200/_cat/

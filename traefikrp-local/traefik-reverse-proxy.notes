@@ -1,0 +1,9 @@
+# traefik
+complex. lots of features and comprehensive docs
+
+tutorials:
+-https://www.youtube.com/watch?v=wLrmmh1eI94
+
+
+# reverse proxy
+reverse proxy can handle ssl certs without any additional configuration on the server

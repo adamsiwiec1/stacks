@@ -1,0 +1,12 @@
+
+# run mysql container
+docker run --name snipe-mysql --env-file=snipe-it-local/.env --mount source=snipesql-vol,target=/var/lib/mysql -d -P mysql:5.6
+
+# run snipeit
+docker run -d -p 6969:80 --name="snipeit" --link snipe-mysql:mysql --env-file=.env --mount source=snipe-vol,dst=/var/lib/snipeit snipe/snipe-it
+
+# create a persistent vol/bind mount
+docker volume create --driver local \
+    --opt type=none \
+    --opt device=/mnt/e/docker/volumes/mysql\
+    --opt o=bind snipe-vol
