@@ -19,6 +19,7 @@ $ docker volume create --driver local \
     --opt o=bind tensorflow-notebooks
 ```
 This bind mount is referenced in your Docker Compose file `jupyter-local-tensorflow-compose.yml`:
+
 ```
 services:
   jupyter-tensorflow-local:
