@@ -1,10 +1,13 @@
 from pymongo import MongoClient
 
 
-client = MongoClient("localhost", 27017,
+mg = MongoClient("100.114.236.49", 27017,
                      username="mongo",
                      password="mongo")
-collection = client['testdb']['testcollection']
+collection = mg['stockdb']['demo']
 
-x = collection.find_one()
-print(x)
+# x = collection.find_one()
+# print(x)
+
+for x in collection.find():
+    print(x)

@@ -3,7 +3,8 @@ services:
     container_name: jupyter-tensorflow-local
     image: jupyter/tensorflow-notebook
     volumes:
-      - tensorflow-notebooks:/home/jovyan/work
+      - tensorflow-notebooks:/home/jovyan/work/tensorflow-notebooks
+      - keras:/home/jovyan/work/keras
     ports:
       - ${TENSORFLOW_PORT}:${TENSORFLOW_PORT}
     command: bash -c "jupyter notebook --port ${TENSORFLOW_PORT} --NotebookApp.token=${ACCESS_TOKEN}"
@@ -11,4 +12,6 @@ services:
 
 volumes:
   tensorflow-notebooks:
+    external: true
+  keras:
     external: true

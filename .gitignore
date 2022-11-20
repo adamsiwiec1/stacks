@@ -1,4 +1,5 @@
 # git rm -r --cached .
+**/__pycache__/
 pyparsers-local/
 airflow-local/logs/
 snipeit-local/

@@ -31,9 +31,9 @@
 ## How to Contribute
 
 ### Adding onto an exisiting stack
-1. Create a Fork
+1. Create a Fork.
 2. Make your changes.
-3. Create a Pull Request. 
+3. Create a Pull Request and I'll merge it . 
 
 ### Creating a new stack
 If there's a software or service you see fit for this repository, please feel free to create a new stack for it. Don't create stacks that have licensing requirements. 
@@ -51,7 +51,7 @@ If there's a software or service you see fit for this repository, please feel fr
 Feel free to create an issue if you see anything outdated or something that doesn't follow best practices.
 
 ## Prerequisites
-* These stacks are provisioned with docker compose - [Docker Compose Install Instructions](https://docs.docker.com/compose/install/).
+* These stacks are provisioned with docker compose
 * Windows - you must [install WSL](https://learn.microsoft.com/en-us/windows/wsl/install) (Windows Subsystem for Linux) to run Docker.
 * Mac - [install instructions](https://docs.docker.com/desktop/install/mac-install/).
 ## Basic Docker Compose Example - Jupyter Tensorflow
