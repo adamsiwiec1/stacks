@@ -1,5 +1,3 @@
-[Bastion Docker](https://hub.docker.com/r/binlab/bastion)
-
 
 1. Connect to Bastion
 Add your user to group docker to have possibility run docker-compose and docker from your user without sudo. After you should re-login or open a new terminal window.
@@ -49,3 +47,6 @@ Test Bastion bridge in action
 $ ssh -A -J bastion@127.0.0.1:22222 <your_user>@docker-host
 3. Connect to another container with SSH through Bastion
 $ ssh -A -J bastion@127.0.0.1:22222 bastion@docker-ssh
+
+### Links:
+[Bastion Docker](https://hub.docker.com/r/binlab/bastion)
